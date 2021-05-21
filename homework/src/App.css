@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+width: 100%;
+padding: 10px 15px;
+background-color: darkslategrey;
+}
+
+.header ul  {
+  display: flex;
+  justify-content: space-between;
+}
+.header ul li{
+  list-style: none;
+}
+.header ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.notf{
+        display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: large;
+}
